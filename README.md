@@ -39,15 +39,11 @@ docker build -t minha-app .
 ```
  docker run -d -p 3000:3000 -p 27017:27017 --name nome-app nome-app 
 ```
-**Testando:**
+**Testes:**
 
-Verificar o contêiner:
-```
-docker ps
-```
-
-**Acessar a aplicação:** 
-Abra o navegador em `http://localhost:3000.`
+**Verificar o container:** `docker ps`
+**Acessar a aplicação pelo navegador:** `http://localhost:3000`
+**Testar a API:** `Use ferramentas como Postman ou Curl para enviar requisições HTTP para os endpoints da API`
 
 **Pré-requisitos:** 
 Certifique-se de ter o Docker instalado.
