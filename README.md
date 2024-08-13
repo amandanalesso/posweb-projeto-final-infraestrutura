@@ -1,4 +1,4 @@
-# Projeto Final - Redes e Infraestrutura
+# Projeto Final da disciplina de Redes e Infraestrutura do curso de Pós Graduação em Desenvolvimento Web do IFSP
 
 ## Descrição
 
