@@ -41,9 +41,9 @@ docker build -t minha-app .
 ```
 **Testes:**
 
-**Verificar o container:** `docker ps`
-**Acessar a aplicação pelo navegador:** `http://localhost:3000`
-**Testar a API:** `Use ferramentas como Postman ou Curl para enviar requisições HTTP para os endpoints da API`
+**Verificar o container:** `docker ps`.
+**Acessar a aplicação pelo navegador:** `http://localhost:3000`.
+**Testar a API:** `Use ferramentas como Postman ou Curl para enviar requisições HTTP para os endpoints da API`.
 
 **Pré-requisitos:** 
 Certifique-se de ter o Docker instalado.
