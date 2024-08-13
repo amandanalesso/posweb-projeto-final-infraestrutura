@@ -35,8 +35,9 @@ docker build -t minha-app .
 ```
 
 **Executar o contêiner:**
+```
  docker run -d -p 3000:3000 -p 27017:27017 --name nome-app nome-app 
-
+```
 **Testando:**
 
 Verificar o contêiner:
@@ -47,6 +48,7 @@ docker ps
 **Acessar a aplicação:** 
 Abra o navegador em `http://localhost:3000.`
 
-**Pré-requisitos:** Certifique-se de ter o Docker instalado.
+**Pré-requisitos:** 
+Certifique-se de ter o Docker instalado.
 Problemas comuns: Verifique se as portas estão mapeadas corretamente e se as dependências estão instaladas.
 Para mais detalhes, consulte a documentação do Docker e do MongoDB.
